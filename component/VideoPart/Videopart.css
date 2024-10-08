@@ -1,0 +1,126 @@
+
+.videopart-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D');
+    opacity: 0.9;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .video-section {
+    flex: 1;
+    padding-right: 20px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    color: #fff;
+    font-weight: bold;
+    position: relative; 
+    z-index: 1; 
+    
+  }
+  
+  .videopart {
+    text-align: left;
+    padding-right: 180px;
+
+    h2 {
+      font-size: 24px;
+      color: #fff;
+    }
+  
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #fff;
+    }
+  }
+
+  .btn1 {
+    background: blueviolet;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    border: 3px solid white;
+    margin: 10px;
+    font-weight: bold;
+    margin-top: 40px;
+    
+  }
+
+  .btn2 {
+   width: 150px;
+   height: 50px;
+
+  }
+  .btn3 {
+    margin-left: 20px;
+  height: 50px;
+    width: 150px;
+  }
+  
+  .download-section {
+    text-align: left;
+    h2 {
+      font-size: 24px;
+    }
+  
+    display: flex;
+    justify-content: center;
+  
+    a {
+      background: black;
+      display: inline-block;
+      padding: 10px 20px;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      margin: 10px;
+      font-weight: bold;
+  
+      svg {
+        margin-right: 10px;
+      }
+    }
+  }
+  
+   .video-frame {
+    margin-top: 200px;
+     padding-right: 50px;
+  }
+@media screen and (max-width: 480px) {
+  .videopart-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .video-section {
+    padding: 10px; 
+    padding-left: 30px;
+  }
+
+  .videopart {
+    padding-right: 20px;
+    text-align: center;
+  }
+
+  .btn1 {
+    margin-top: 20px; 
+  }
+
+  .download-section {
+    text-align: center; 
+  }
+
+  .video-frame {
+    margin-top: 20px;
+    align-items: center;
+  }
+}

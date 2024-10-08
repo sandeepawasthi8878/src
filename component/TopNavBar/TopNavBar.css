@@ -1,0 +1,115 @@
+.TopNavbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 8px 50px;
+    background: linear-gradient(90deg, #812868 0%, #f954a4 100%);
+}
+a{
+    color: white;
+}
+p{
+    margin: 0;
+}
+ul{
+    margin: 0;
+}
+.left{
+    width: 35%;
+    /* background-color: aqua; */
+    font-size: 18px;
+}
+.right{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    
+    /* background-color: royalblue; */
+}
+.number{
+   width: 30%;
+   color: white;
+   /* background-color: aqua; */
+   display: flex;
+   justify-content: space-around;
+   border: none;
+   margin-left: 90px;
+   
+}
+.number i{
+    color: white;
+    margin-right: 10px;
+    border: none;
+    text-decoration: none;
+}
+.insideRight{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    /* background-color: aquamarine; */
+}
+.top-mail{
+    margin-left: 40px;
+    color: white;
+}
+.top-mail i{
+    margin-right: 10px;
+    color: white;
+}
+.header-social{
+    color: white;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    list-style-type: none;
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    .TopNavbar{
+        display: flex;
+        flex-direction: column;
+        padding: 8px 27px;
+    }
+    .left{
+        width: 100%;
+        font-size: 13px;
+        margin: 12px 0;
+        padding: 0 29px;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        margin-right: 100px;
+    }
+    .insideRight{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .number{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .margintoeight{
+        margin-left: 10px;
+    }
+    .top-mail{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 90px;
+    }
+    .header-social{
+        width: 30%;
+        margin-left: 5px;
+        margin: auto;
+    }
+  }

@@ -1,0 +1,43 @@
+/* Paintings.css */
+.center-text {
+  text-align: center; 
+  margin-top: 50px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  background-color: black;
+  color: white; /* Added text color for better contrast */
+  padding: 10px; /* Added padding for the title */
+  border-radius: 5px; /* Rounded corners for the title */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.image-style {
+  width: calc(33.33% - 20px); /* 3 images per row */
+  height: 300px; 
+  margin: 10px;
+  object-fit: cover; 
+  border-radius: 8px; /* Rounded corners for images */
+  transition: transform 0.3s; /* Smooth scaling on hover */
+}
+
+.image-style:hover {
+  transform: scale(1.05); /* Slightly enlarge the image on hover */
+}
+
+@media (max-width: 1200px) {
+  .image-style {
+    width: calc(50% - 20px); /* 2 images per row on smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .image-style {
+    width: calc(100% - 20px); /* 1 image per row on even smaller screens */
+  }
+}

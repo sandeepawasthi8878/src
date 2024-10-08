@@ -1,0 +1,68 @@
+.Header {
+    display: flex;
+}
+
+.HideforMob {
+    visibility: visible;
+    display: flex;
+    padding: 0 50px;
+}
+
+.logo {
+    width: 20%;
+}
+
+.logo img {
+    height: 70px;
+    width: 100px;
+}
+
+#right {
+    width: 80%;
+    
+}
+
+.dropbtn {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    width: 89px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    width: 309px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #812868;
+    color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: rgb(200, 196, 196);
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ffffff;
+}

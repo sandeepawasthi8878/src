@@ -1,0 +1,40 @@
+/* Video.css */
+.allcontainer{
+  background-image: url(https://media.istockphoto.com/id/638631838/photo/snow-covered-street-lamp-in-deep-snow-at-evening.jpg?s=612x612&w=0&k=20&c=ZwEutz9Cc4Lvtmn1xg4Aiiq8tVX1mqr17VXK7oMyZbM=);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.center-text {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: white;
+  }
+
+  .video-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .video-container {
+    padding: 10px;
+    box-sizing: border-box;
+    padding: 40px 40px;
+  }
+
+  .video-iframe {
+    width: 120%;
+    height: 215px;
+    border: 4px solid white;
+  }
+
+  @media screen and (max-width: 480px) {
+   
+    .allcontainer {
+        flex-direction: column; 
+        padding-right: 40px;
+    }
+  }

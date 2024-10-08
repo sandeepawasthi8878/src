@@ -1,0 +1,152 @@
+/* Footer.css */
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 20px 30px 20px; /* Add padding to the top and bottom */
+  }
+
+  .footer-column {
+    width: 20%;
+  }
+
+  .social-icons {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+  }
+
+  .icon-style {
+    font-size: 24px;
+    border-radius: 70%;
+    background-color:white;
+    padding: 10px;
+    color:red;
+    margin: 0 10px;
+    border: 2px solid black;
+  }
+  .icon-style1{
+    color: blue;
+    font-size: 24px;
+    border-radius: 70%;
+    background-color:white;
+    padding: 10px;
+    margin: 0 10px;
+    border: 2px solid black;
+  }
+  .icon-style2{
+    color:deepskyblue;
+    font-size: 24px;
+    border-radius: 70%;
+    background-color:white;
+    padding: 10px;
+    margin: 0 10px;
+    border: 2px solid black;
+  
+  }
+
+.footer-box{
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+.footer-box2{
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+  .button-container {
+    text-align: right;
+    margin-top: 10px; /* Add some spacing at the top */
+  }
+
+  .button-style {
+    text-decoration: none;
+    
+    padding: 7px 15px;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 10px;
+  }
+  .copyright{
+    margin-top: 35px;
+  }
+  .centered-text {
+    text-align: center; /* Center-align the text */
+  }
+
+  .centered-list {
+    text-align: center; /* Center-align the ul and li elements */
+    list-style: none; /* Remove the default bullet points */
+    padding: 0; /* Remove any default padding */
+  }
+
+  .footer-row {
+    display: flex;
+    justify-content: space-between;
+  }
+/* Footer.css - Responsive for screens with a maximum width of 480px */
+@media screen and (max-width: 480px) {
+    .footer-container {
+      padding: 5px; /* Adjusted padding for top and bottom */
+    }
+  
+    .footer-column {
+        padding-top: 50px;
+      width: 50%; /* Full width for small screens */
+      margin-bottom: 20px; /* Add some spacing between columns */
+    }
+  
+    .social-icons {
+      justify-content: center; /* Center the social icons */
+    }
+  
+    .icon-style,
+    .icon-style1,
+    .icon-style2 {
+      font-size: 24px;
+      border-radius: 50%; /* Adjusted for a more rounded look */
+      padding: 10px;
+      margin: 0 10px;
+    }
+  .footer-row{
+    flex-direction: column; 
+
+  }
+    .footer-box
+   {
+     margin-right: 60px;
+      text-align: center;
+      margin-bottom: 20px; /* Add some spacing between boxes */
+    }
+  .footer-box2 {
+       text-align: center;
+  }
+    .button-container {
+      margin-top: 10px;
+    }
+  .btnt{
+    display: flex;
+    text-align: center;
+    margin-left: 30px;
+    
+  }
+  .copyright{
+    font-size: 13px;
+  }
+    .button-style {
+      margin: 0 10px; /* Adjusted margin */
+    }
+  
+    .copyright {
+      margin-top: 20px; /* Adjusted margin */
+    }
+  
+    .centered-text,
+    .centered-list {
+      text-align: center; /* Center-align text and lists */
+    }
+  
+    .footer-row {
+      justify-content: center; /* Center content on small screens */
+    }
+  }   
+  
