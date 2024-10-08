@@ -1,111 +1,111 @@
-import React from 'react'
+import React from 'react';
 import logo from '../Image/nifa-new-logo.png';
-import './Header.css'
+import './Header.css';
 
 function WebHeader() {
     return (
         <div className='Header'>
             <div className='HideforMob'>
-
+                {/* Logo Section */}
                 <div className='logo'>
-                    <img src={logo} />
+                    <img src={logo} alt='logo1' />
                 </div>
+
+                {/* Navigation Links */}
                 <div className='right'>
                     <div>Home</div>
 
+                    {/* About Dropdown */}
                     <div className='About'>
-                        <div class="dropdown">
-                            <button class="dropbtn">About</button>
-                            <div class="dropdown-content">
-                                <a href="#">Facilities</a>
+                        <div className="dropdown">
+                            <button className="dropbtn">About</button>
+                            <div className="dropdown-content">
+                                <a href="/facilities">Facilities</a>
                             </div>
                         </div>
                     </div>
 
+                    {/* Courses Dropdown */}
                     <div className='Courses'>
-                        <div class="dropdown">
-                            <button class="dropbtn">Courses</button>
-                            <div class="dropdown-content">
-                                <a href="#">B.F.A from UGC Recognised University</a>
-                                <a href="#">M.A from UGC Recognised University</a>
-                                <a href="#">Two years Advance Diploma in Fine Arts</a>
-                                <a href="#">One Year Diploma in Fine Arts</a>
-                                <a href="#">6 Months Diploma in Fine Arts</a>
-                                <a href="#">Entrance Preparation For N.I.D</a>
-                                <a href="#">Entrance Preparation for NIFT</a>
-                                <a href="#">Animation Sketching</a>
-                                <a href="#">Entrance Preparation for B.F.A</a>
-                                <a href="#">1 to 3 Months Certificate Hobby Course</a>
-                                <a href="#">Kids Diploma (L-2)</a>
-                                <a href="#">Kids Diploma (L-1)</a>
+                        <div className="dropdown">
+                            <button className="dropbtn">Courses</button>
+                            <div className="dropdown-content">
+                                <a href="/courses/bfa">B.F.A from UGC Recognised University</a>
+                                <a href="/courses/ma">M.A from UGC Recognised University</a>
+                                <a href="/courses/advanced-diploma">Two years Advance Diploma in Fine Arts</a>
+                                <a href="/courses/one-year-diploma">One Year Diploma in Fine Arts</a>
+                                <a href="/courses/six-months-diploma">6 Months Diploma in Fine Arts</a>
+                                <a href="/courses/nid-preparation">Entrance Preparation For N.I.D</a>
+                                <a href="/courses/nift-preparation">Entrance Preparation for NIFT</a>
+                                <a href="/courses/animation-sketching">Animation Sketching</a>
+                                <a href="/courses/bfa-preparation">Entrance Preparation for B.F.A</a>
+                                <a href="/courses/hobby-course">1 to 3 Months Certificate Hobby Course</a>
+                                <a href="/courses/kids-diploma-l2">Kids Diploma (L-2)</a>
+                                <a href="/courses/kids-diploma-l1">Kids Diploma (L-1)</a>
                             </div>
                         </div>
                     </div>
 
+                    {/* Activities Dropdown */}
                     <div className='Activities'>
-                        <div class="dropdown">
-                            <button class="dropbtn">Activities</button>
-                            <div class="dropdown-content">
-                                <a href="#">Workshops</a>
-                                <a href="#">Outdoor</a>
-                                <a href="#">National Art Seminar & Award Show, 2018</a>
-                                <a href="#">Media Coverage</a>
-                                <a href="#">Exhibition</a>
+                        <div className="dropdown">
+                            <button className="dropbtn">Activities</button>
+                            <div className="dropdown-content">
+                                <a href="/activities/workshops">Workshops</a>
+                                <a href="/activities/outdoor">Outdoor</a>
+                                <a href="/activities/national-seminar-2018">National Art Seminar & Award Show, 2018</a>
+                                <a href="/activities/media-coverage">Media Coverage</a>
+                                <a href="/activities/exhibition">Exhibition</a>
                             </div>
                         </div>
                     </div>
 
+                    {/* Admission Section */}
                     <div className='Admission'>
-                        <div class="dropdown">
-                            <button class="dropbtn">Admission</button>
-                        </div>
+                        <button className="dropbtn">Admission</button>
                     </div>
 
+                    {/* Art Gallery Dropdown */}
                     <div className='Art Gallery'>
-                        <div class="dropdown">
-                            <button class="dropbtn">Art Gallery</button>
-                            <div class="dropdown-content">
-                                <a href="#">Work by Kids Level-2</a>
-                                <a href="#">Work by Kids Level-</a>
-                                <a href="#">Sketching</a>
-                                <a href="#">Paintings done by Students of Level-3</a>
+                        <div className="dropdown">
+                            <button className="dropbtn">Art Gallery</button>
+                            <div className="dropdown-content">
+                                <a href="/art-gallery/kids-l2">Work by Kids Level-2</a>
+                                <a href="/art-gallery/kids-l1">Work by Kids Level-1</a>
+                                <a href="/art-gallery/sketching">Sketching</a>
+                                <a href="/art-gallery/paintings">Paintings done by Students of Level-3</a>
                             </div>
                         </div>
                     </div>
 
+                    {/* Franchise Section */}
                     <div className='Franchise'>
-                        <div class="dropdown">
-                            <button class="dropbtn">Franchise</button>
-                        </div>
+                        <button className="dropbtn">Franchise</button>
                     </div>
 
+                    {/* Online Classes Section */}
                     <div className='Online-Classes'>
-                        <div class="dropdown">
-                            <button class="dropbtn" >Online Classes</button>
-                        </div>
+                        <button className="dropbtn">Online Classes</button>
                     </div>
 
+                    {/* Videos Section */}
                     <div className='Videos'>
-                        <div class="dropdown">
-                            <button class="dropbtn">Videos</button>
-                        </div>
+                        <button className="dropbtn">Videos</button>
                     </div>
 
+                    {/* Pay Fee Section */}
                     <div className='Pay Fee'>
-                        <div class="dropdown">
-                            <button class="dropbtn">Pay Fee</button>
-                        </div>
+                        <button className="dropbtn">Pay Fee</button>
                     </div>
 
+                    {/* Contact Section */}
                     <div className='Contact'>
-                        <div class="dropdown">
-                            <button class="dropbtn">Contact</button>
-                        </div>
+                        <button className="dropbtn">Contact</button>
                     </div>
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default WebHeader
+export default WebHeader;

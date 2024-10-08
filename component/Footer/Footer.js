@@ -48,8 +48,8 @@ const Footer = () => {
           <div className="button-container">
             <h2>Download The App</h2>
             <div className='btnt'>
-              <img className='btn2' src={logo} />
-              <img className='btn3'src={logo1} />
+              <img className='btn2' src={logo} alt='logo22'/>
+              <img className='btn3'src={logo1} alt='logo12'/>
           </div>
             <p className="copyright">© Copyright 2021 NIFA Fine Arts. All Rights Reserved.</p>
           </div>

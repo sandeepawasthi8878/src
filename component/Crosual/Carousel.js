@@ -15,10 +15,10 @@ const ImageCarousel = () => {
           <img src="https://plus.unsplash.com/premium_photo-1661859228809-19c901979bcb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXJ0c3xlbnwwfHwwfHx8MA%3D%3D" alt="Placeholder 2" />
         </div>
         <div>
-          <img src="https://images.unsplash.com/photo-1456086272160-b28b0645b729?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YXJ0c3xlbnwwfHwwfHx8MA%3D%3D"  alt=""/>
+          <img src="https://images.unsplash.com/photo-1456086272160-b28b0645b729?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YXJ0c3xlbnwwfHwwfHx8MA%3D%3D"  alt="place"/>
         </div>
         <div>
-          <img src="https://plus.unsplash.com/premium_photo-1673467010928-6a69e1ef267a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YXJ0c3xlbnwwfHwwfHx8MA%3D%3D" alt="" />
+          <img src="https://plus.unsplash.com/premium_photo-1673467010928-6a69e1ef267a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YXJ0c3xlbnwwfHwwfHx8MA%3D%3D" alt="place" />
         </div>
       </Carousel>
         <div className="ticker-container">

@@ -1,6 +1,7 @@
 import React from 'react'
 import 'remixicon/fonts/remixicon.css';
 import './TopNavBar.css'
+
 function TopNavBar() {
     return (
         <div className='TopNavbar'>
@@ -8,20 +9,20 @@ function TopNavBar() {
                 <p>Welcome to the National Institute of Fine Arts</p>
             </div>
             <div className='right'>
-                <div class="number">
-                    <a><i class="ri-phone-line"></i>9555112200</a>
-                    <a  className='margintoeight' style={{textDecoration:'none'}}><i class="ri-phone-line"></i>9810130552</a>
+                <div className="number">
+                    <a href="tel:+919555112200"><i className="ri-phone-line"></i>9555112200</a>
+                    <a href="tel:+919810130552" className='margintoeight' style={{ textDecoration: 'none' }}><i className="ri-phone-line"></i>9810130552</a>
                 </div>
-                <div class="insideRight">
-                    <div class="top-mail">
-                        <i class="ri-mail-line"></i>
-                        <a>admission@nifafinearts.com</a>
+                <div className="insideRight">
+                    <div className="top-mail">
+                        <i className="ri-mail-line"></i>
+                        <a href="mailto:admission@nifafinearts.com">admission@nifafinearts.com</a>
                     </div>
-                    <ul class="header-social">
-                        <li><i class="ri-facebook-circle-line"></i></li>
-                        <li><i class="ri-twitter-line"></i></li>
-                        <li><i class="ri-instagram-line"></i></li>
-                        <li><i class="ri-youtube-line"></i></li>
+                    <ul className="header-social">
+                        <li><a href="https://www.facebook.com"><i className="ri-facebook-circle-line"></i></a></li>
+                        <li><a href="https://www.twitter.com"><i className="ri-twitter-line"></i></a></li>
+                        <li><a href="https://www.instagram.com"><i className="ri-instagram-line"></i></a></li>
+                        <li><a href="https://www.youtube.com"><i className="ri-youtube-line"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -29,4 +30,4 @@ function TopNavBar() {
     )
 }
 
-export default TopNavBar
+export default TopNavBar;
